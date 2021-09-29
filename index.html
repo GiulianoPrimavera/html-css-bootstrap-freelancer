@@ -116,7 +116,7 @@
 
         <!-- about -->
         <section class="bg-success">
-            <div class="container">
+            <div class="container py-3">
 
                 <div class="col text-center">
                     <h2>about</h2>
@@ -145,12 +145,11 @@
                 </div>
 
                 <div class="col text-center">
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="btn btn-outline-light">
                         <i class="fas fa-download"></i> download
                     </button>
                 </div>
 
-            </div>
             </div>
         </section>
 
@@ -163,23 +162,27 @@
                 </div>
                 <div class="col-7">
                     <form>
-                        <label for="Name" class="form-label">Name</label>
-                        <input type="text" id="Name" class="form-control w-100">
+                        <div class="form-floating">
+                            <input type="text" class="form-control w-100 border-0 border-bottom" id="floatingName" placeholder="Nome">
+                            <label for="floatingName" class="px-0">Nome</label>
+                        </div>
 
+                        <div class="form-floating">
+                            <input type="email" class="form-control w-100 border-0 border-bottom" id="floatingEmail" placeholder="E-mail">
+                            <label for="floatingEmail" class="px-0">Email Address</label>
+                        </div>
 
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" id="email" class="form-control w-100">
+                        <div class="form-floating">
+                            <input type="tel" class="form-control w-100 border-0 border-bottom" id="floatingPhone" placeholder="Phone">
+                            <label for="floatingPhone" class="px-0">Phone Number</label>
+                        </div>
 
+                        <div class="form-floating">
+                            <textarea id="floatingMessage" rows="5" cols="30" class="w-100 border-0 border-bottom" placeholder="Message"></textarea>
+                            <label for="floatingMessage" class="px-0"></label>
+                        </div>
 
-                        <label for="phone_number" class="form-label">Phone Number</label>
-                        <input type="tel" id="phone_number" class="form-control w-100">
-
-
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" rows="5" cols="30" class="form-control w-100"></textarea>
-
-
-                        <input type="submit" value="Submit" class="my-4">
+                        <button type="submit" class="btn btn-success my-2">Send</button>
                     </form>
                 </div>
             </div>
@@ -213,6 +216,16 @@
         </section>
 
     </footer>
+
+    <!--    serve per fare le icone dei link dei social sul footer FAI UNA CLASSE A POSTA CHE FAI PRIMA
+        <div class="row">
+            <div class="col">
+                <div class="ratio ratio1x1 rounded-circle-border">
+                    <div class="d-flex justify-content-center align-items-center"></div>
+                </div>
+            </div>
+        </div>
+    -->
 </body>
 
 </html>
