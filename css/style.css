@@ -9,6 +9,22 @@
     max-width: 300px;
 }
 
+.my_about_xs_row{
+    margin:0 auto;
+    max-width: 300px;
+}
+
+/***********
+MEDIA FOR MD SCREEN
+*************/
+@media screen and (min-width: 768px){
+    .my_about_md_row{
+        margin: 0 auto;
+        max-width: 768px;
+    } 
+}
+
+
 
 /***********
 MEDIA FOR LG SCREEN
@@ -17,5 +33,8 @@ MEDIA FOR LG SCREEN
     .my_central_row{
         max-width: 992px;
     }
-
+    .my_about_lg_row{
+        margin: 0 auto;
+        max-width: 992px;
+    } 
 }
