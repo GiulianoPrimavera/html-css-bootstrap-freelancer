@@ -27,6 +27,12 @@
     border-radius: 10px;
 }
 
+/* footer social icons */
+.my_social_icon_container{
+    max-width: 100px;
+}
+
+
 /** MEDIA QUERY FOR MD SCREEN */
 @media screen and (min-width: 768px){
     .my_about_md_row{
