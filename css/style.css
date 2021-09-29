@@ -62,11 +62,11 @@
     font-size: 0.9em;
     z-index: 2;
     position: absolute;
-    bottom: -220px;
-    transition: transform 1s;
+    bottom: -500px;
+    transition: transform .5s;
 }
 .my_card:hover .my_card_description{
-    transform: translateY(-210px);
+    transform: translateY(-490px);
 }
 .my_card:hover::before{
     content: "";
