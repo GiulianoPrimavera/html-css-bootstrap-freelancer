@@ -7,9 +7,7 @@
     max-width: 300px;
 }
 
-/***********
-MEDIA QUERY FOR MD SCREEN
-*************/
+/** MEDIA QUERY FOR MD SCREEN */
 @media screen and (min-width: 768px){
     .my_about_md_row{
         margin: 0 auto;
@@ -17,16 +15,9 @@ MEDIA QUERY FOR MD SCREEN
     } 
 }
 
-/**  ciao **/
-/* ciao */
-/* !ciao */
-/* ?ciao */
-/* TODO ciao */
-/* //ciao */
 
-/***********
-MEDIA QUERY FOR LG SCREEN
-*************/
+
+/** MEDIA QUERY FOR LG SCREEN */
 @media screen and (min-width: 992px){
     .my_central_row{
         max-width: 992px;
