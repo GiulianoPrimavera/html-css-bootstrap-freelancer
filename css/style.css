@@ -2,3 +2,20 @@
     min-height: 200px;
     background-color: blue;
 }
+
+
+
+.my_profile_pic{
+    max-width: 300px;
+}
+
+
+/***********
+MEDIA FOR LG SCREEN
+*************/
+@media screen and (min-width: 992px){
+    .my_central_row{
+        max-width: 992px;
+    }
+
+}
