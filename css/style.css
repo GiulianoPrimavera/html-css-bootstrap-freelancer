@@ -31,7 +31,7 @@
 .my_social_icon_container{
     max-width: 80px;
 }
-/* hover */
+/* hover for footer social icons*/
 .my_social_icon_container .my_facebook:hover{
     background-color: #3B5998;
 }
@@ -44,6 +44,43 @@
 .my_social_icon_container .my_linkedin:hover{
     background-color: #0E76A8;
 }
+
+
+/** hover per le card  */
+.my_card{
+    position: relative;
+}
+
+.my_card_description{
+    width: 90%;
+    height: 90%;
+    margin: 8%;
+}
+.my_card_description{
+    display: none;
+    position: absolute;
+    font-size: 0.9em;
+    z-index: 2;
+    /*  bottom: -220px; */
+    /* transition: display 2s, transform 2s; */
+}
+.my_card:hover .my_card_description{
+    display: block;
+    /* transform: translateY(-220px); */
+}
+.my_card:hover::before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    bottom: 18px;
+    right: 12px;
+    left: 12px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+/* ho provato a fare l'animazione come dall'esempio di Florian con un transition, ma non ci riesco */
+
 
 
 /** MEDIA QUERY FOR MD SCREEN */
